@@ -14,6 +14,6 @@ class Post extends Model
         'name',
         'email',
         'phone',
-        'mesagge'
+        'message'
     ];
 }

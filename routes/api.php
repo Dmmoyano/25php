@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::post('/post-save', 'App\Http\Controllers\UsuariosController@create')->name('api_save_post');
+/*Route::post('/post-save', 'App\Http\Controllers\UsuariosController@create')->name('api_save_post');*/
+
+Route::post('/probando', 'App\Http\Controllers\UsuariosController@create');
